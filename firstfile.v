@@ -4,6 +4,6 @@ module simple_module (
     output wire y
 );
 
-    assign y = a & b;
+    assign y = a | b;
 
 endmodule
