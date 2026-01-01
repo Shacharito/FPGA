@@ -24,6 +24,7 @@ module FA(a, b, ci, sum, co);
   
   assign sum = a ^ b ^ ci;
   assign co = (a & b) | (b & ci) | (ci & a);
+  שחר בתול
 
   
 
